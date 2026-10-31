@@ -1,0 +1,6 @@
+:HL["/_next/static/chunks/3p4teyqrvvykp.css","style"]
+:HL["/_next/static/media/Inter_Bold-s.p.436ns-181ndl0.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/Inter_Medium-s.p.3nfssi645m9_z.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/Inter_Regular-s.p.1mcjwxltau_fv.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/Inter_SemiBold-s.p.1epfc1d73p5wq.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"(reading)","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"c","key":"chronicle/jack-london/ashit-milne","siblings":["workflow"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"VveudVWk4OUhSCYtBvjNq"}

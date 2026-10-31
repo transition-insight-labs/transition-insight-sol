@@ -1,0 +1,69 @@
+{
+  "version": "1",
+  "generated": "2026-10-31T13:44:44.666Z",
+  "canonical": "https://transition-insight.org",
+  "aliases": [
+    {
+      "type": "sns",
+      "name": "transition-insight.sol"
+    },
+    {
+      "type": "sol.site",
+      "url": "https://transition-insight.sol.site"
+    },
+    {
+      "type": "ens",
+      "name": "ashitpatel.eth"
+    }
+  ],
+  "ipfs": {
+    "cid": null,
+    "gateway": "https://gateway.pinata.cloud",
+    "directory": null,
+    "ipns": null,
+    "ipnsUrl": null
+  },
+  "identity": {
+    "did": "did:pkh:solana:6qr7vtip1h2wD7ktLZQYa7XvnJtjnLLeGFF8a6EPtLKT",
+    "solana": "6qr7vtip1h2wD7ktLZQYa7XvnJtjnLLeGFF8a6EPtLKT",
+    "validator": null,
+    "validatorVoteAccount": null
+  },
+  "documents": {
+    "attestation": "https://transition-insight.org/attestation.json",
+    "auth": "https://transition-insight.org/auth.md",
+    "security": "https://transition-insight.org/.well-known/security.txt",
+    "apiCatalog": "https://transition-insight.org/.well-known/api-catalog",
+    "agentSkills": "https://transition-insight.org/.well-known/agent-skills/index.json",
+    "handwriting": "https://transition-insight.org/identity/handwriting/MANIFEST.json"
+  },
+  "handwriting": {
+    "description": "Ashit Milne's handwriting: original samples (metadata removed), the Ashit Hand font (OFL-1.1), the hand-lettered homepage line and his signature.",
+    "manifest": "https://transition-insight.org/identity/handwriting/MANIFEST.json",
+    "manifestDigest": "sha256:8012e27d4f82d3a7f32e8f0fc1a5e6e3f67f251bd07f4be9ffe6b5fccb21906a",
+    "readme": "https://transition-insight.org/identity/handwriting/README.md",
+    "font": "https://transition-insight.org/identity/handwriting/font/AshitHand-Regular.woff2",
+    "signature": "https://transition-insight.org/identity/handwriting/signature/ash.svg",
+    "version": "0.1",
+    "fileCount": 13
+  },
+  "pool": {
+    "description": "Published ontology corpus attestation for milling, noding, and transaction-pool agents.",
+    "tier": "global",
+    "manifest": "https://transition-insight.org/attestation.json",
+    "manifestDigest": "sha256:1495db96ee677e1e6d8cb6d8e7cc89d171de6f2e5a4fbd4d0bca74ce618cfacf",
+    "signature": {
+      "algorithm": "ed25519",
+      "scheme": "transition-insight:attestation:v1",
+      "publicKey": "6qr7vtip1h2wD7ktLZQYa7XvnJtjnLLeGFF8a6EPtLKT",
+      "value": "5PnKszyPbExtzVvaLyv93SgSeG3NPRqkV5o1meD8M74JwXYLpteBVr6ZKnB1bHHzkekwd3LkE1wjn3f7g3thwWmm",
+      "signedAt": "2026-10-31T13:44:44.171Z"
+    },
+    "entryCount": 24
+  },
+  "solSite": {
+    "domain": "https://transition-insight.sol.site",
+    "status": "pages-live-ipfs-pending",
+    "note": "Canonical origin is set by src/config/site-url.ts (NEXT_PUBLIC_SITE_URL). sol.site is the SNS gateway, being retired by SNS. Do not set the SNS URL record to a DNS origin (Bonfida prefers URL over IPFS)."
+  }
+}

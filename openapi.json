@@ -1,0 +1,554 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Transition Insight — public content surface",
+    "version": "1.0.0",
+    "description": "Read-only GET routes for published essays and governance pages. No authentication required."
+  },
+  "servers": [
+    {
+      "url": "https://transition-insight.org"
+    }
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "operationId": "get_",
+        "summary": "Read public page at /",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/3am-eternal": {
+      "get": {
+        "operationId": "get_chronicle_3am_eternal",
+        "summary": "Read public page at /chronicle/3am-eternal",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/3am-eternal/3am-eternal": {
+      "get": {
+        "operationId": "get_chronicle_3am_eternal_3am_eternal",
+        "summary": "Read public page at /chronicle/3am-eternal/3am-eternal",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/argonaut-agentic": {
+      "get": {
+        "operationId": "get_chronicle_argonaut_agentic",
+        "summary": "Read public page at /chronicle/argonaut-agentic",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/argonaut-agentic/agentic": {
+      "get": {
+        "operationId": "get_chronicle_argonaut_agentic_agentic",
+        "summary": "Read public page at /chronicle/argonaut-agentic/agentic",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/argonaut-agentic/agentic/1": {
+      "get": {
+        "operationId": "get_chronicle_argonaut_agentic_agentic_1",
+        "summary": "Read public page at /chronicle/argonaut-agentic/agentic/1",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/argonaut-agentic/agentic/2": {
+      "get": {
+        "operationId": "get_chronicle_argonaut_agentic_agentic_2",
+        "summary": "Read public page at /chronicle/argonaut-agentic/agentic/2",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/argonaut-agentic/argonaut-agentic": {
+      "get": {
+        "operationId": "get_chronicle_argonaut_agentic_argonaut_agentic",
+        "summary": "Read public page at /chronicle/argonaut-agentic/argonaut-agentic",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/argonaut-agentic/clarity-in-transaction": {
+      "get": {
+        "operationId": "get_chronicle_argonaut_agentic_clarity_in_transaction",
+        "summary": "Read public page at /chronicle/argonaut-agentic/clarity-in-transaction",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/argonaut-agentic/payments-that-explain-themselves": {
+      "get": {
+        "operationId": "get_chronicle_argonaut_agentic_payments_that_explain_themselves",
+        "summary": "Read public page at /chronicle/argonaut-agentic/payments-that-explain-themselves",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/argonaut-agentic/payments": {
+      "get": {
+        "operationId": "get_chronicle_argonaut_agentic_payments",
+        "summary": "Read public page at /chronicle/argonaut-agentic/payments",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/argonaut-agentic/vert": {
+      "get": {
+        "operationId": "get_chronicle_argonaut_agentic_vert",
+        "summary": "Read public page at /chronicle/argonaut-agentic/vert",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/jack-london": {
+      "get": {
+        "operationId": "get_chronicle_jack_london",
+        "summary": "Read public page at /chronicle/jack-london",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/jack-london/ashit-milne": {
+      "get": {
+        "operationId": "get_chronicle_jack_london_ashit_milne",
+        "summary": "Read public page at /chronicle/jack-london/ashit-milne",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/jack-london/ashit-patel": {
+      "get": {
+        "operationId": "get_chronicle_jack_london_ashit_patel",
+        "summary": "Read public page at /chronicle/jack-london/ashit-patel",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/jack-london/ronin": {
+      "get": {
+        "operationId": "get_chronicle_jack_london_ronin",
+        "summary": "Read public page at /chronicle/jack-london/ronin",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/own-site": {
+      "get": {
+        "operationId": "get_chronicle_own_site",
+        "summary": "Read public page at /chronicle/own-site",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/polite_bureau": {
+      "get": {
+        "operationId": "get_chronicle_polite_bureau",
+        "summary": "Read public page at /chronicle/polite_bureau",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/polite_bureau/tenable": {
+      "get": {
+        "operationId": "get_chronicle_polite_bureau_tenable",
+        "summary": "Read public page at /chronicle/polite_bureau/tenable",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/polite_bureau/tenuous": {
+      "get": {
+        "operationId": "get_chronicle_polite_bureau_tenuous",
+        "summary": "Read public page at /chronicle/polite_bureau/tenuous",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/polite_bureau/transition": {
+      "get": {
+        "operationId": "get_chronicle_polite_bureau_transition",
+        "summary": "Read public page at /chronicle/polite_bureau/transition",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/chronicle/skin-in-the-game": {
+      "get": {
+        "operationId": "get_chronicle_skin_in_the_game",
+        "summary": "Read public page at /chronicle/skin-in-the-game",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/canonical": {
+      "get": {
+        "operationId": "get_governance_canonical",
+        "summary": "Read public page at /governance/canonical",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/carta": {
+      "get": {
+        "operationId": "get_governance_carta",
+        "summary": "Read public page at /governance/carta",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/identity": {
+      "get": {
+        "operationId": "get_governance_identity",
+        "summary": "Read public page at /governance/identity",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/identity/dial-square": {
+      "get": {
+        "operationId": "get_governance_identity_dial_square",
+        "summary": "Read public page at /governance/identity/dial-square",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/intelligence": {
+      "get": {
+        "operationId": "get_governance_intelligence",
+        "summary": "Read public page at /governance/intelligence",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/intelligence/deus-en-machina": {
+      "get": {
+        "operationId": "get_governance_intelligence_deus_en_machina",
+        "summary": "Read public page at /governance/intelligence/deus-en-machina",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/peridot": {
+      "get": {
+        "operationId": "get_governance_peridot",
+        "summary": "Read public page at /governance/peridot",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/peridot/arete": {
+      "get": {
+        "operationId": "get_governance_peridot_arete",
+        "summary": "Read public page at /governance/peridot/arete",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/peridot/bias": {
+      "get": {
+        "operationId": "get_governance_peridot_bias",
+        "summary": "Read public page at /governance/peridot/bias",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/peridot/semper-idem": {
+      "get": {
+        "operationId": "get_governance_peridot_semper_idem",
+        "summary": "Read public page at /governance/peridot/semper-idem",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/peridot/social-network": {
+      "get": {
+        "operationId": "get_governance_peridot_social_network",
+        "summary": "Read public page at /governance/peridot/social-network",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/utility": {
+      "get": {
+        "operationId": "get_governance_utility",
+        "summary": "Read public page at /governance/utility",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/utility/agentic": {
+      "get": {
+        "operationId": "get_governance_utility_agentic",
+        "summary": "Read public page at /governance/utility/agentic",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/utility/agentic/1": {
+      "get": {
+        "operationId": "get_governance_utility_agentic_1",
+        "summary": "Read public page at /governance/utility/agentic/1",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/utility/agentic/2": {
+      "get": {
+        "operationId": "get_governance_utility_agentic_2",
+        "summary": "Read public page at /governance/utility/agentic/2",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/utility/argonaut-agentic": {
+      "get": {
+        "operationId": "get_governance_utility_argonaut_agentic",
+        "summary": "Read public page at /governance/utility/argonaut-agentic",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/utility/our-glass-redcurrant": {
+      "get": {
+        "operationId": "get_governance_utility_our_glass_redcurrant",
+        "summary": "Read public page at /governance/utility/our-glass-redcurrant",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/utility/payments-that-explain-themselves": {
+      "get": {
+        "operationId": "get_governance_utility_payments_that_explain_themselves",
+        "summary": "Read public page at /governance/utility/payments-that-explain-themselves",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/utility/payments": {
+      "get": {
+        "operationId": "get_governance_utility_payments",
+        "summary": "Read public page at /governance/utility/payments",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/governance/utility/vert": {
+      "get": {
+        "operationId": "get_governance_utility_vert",
+        "summary": "Read public page at /governance/utility/vert",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/me/about": {
+      "get": {
+        "operationId": "get_me_about",
+        "summary": "Read public page at /me/about",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/me/offerings": {
+      "get": {
+        "operationId": "get_me_offerings",
+        "summary": "Read public page at /me/offerings",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/me/origins": {
+      "get": {
+        "operationId": "get_me_origins",
+        "summary": "Read public page at /me/origins",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/me/praxis": {
+      "get": {
+        "operationId": "get_me_praxis",
+        "summary": "Read public page at /me/praxis",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/me/sku": {
+      "get": {
+        "operationId": "get_me_sku",
+        "summary": "Read public page at /me/sku",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/me/trials-of-job": {
+      "get": {
+        "operationId": "get_me_trials_of_job",
+        "summary": "Read public page at /me/trials-of-job",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    },
+    "/ontology": {
+      "get": {
+        "operationId": "get_ontology",
+        "summary": "Read public page at /ontology",
+        "responses": {
+          "200": {
+            "description": "HTML page (default) or markdown when Accept: text/markdown and zone supports conversion"
+          }
+        }
+      }
+    }
+  }
+}

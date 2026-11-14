@@ -1,0 +1,5 @@
+Contact: mailto:am-pm-1969@proton.me
+Contact: mailto:am-pm-1969@proton.me
+Expires: 2027-08-13T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://transition-insight.org/.well-known/security.txt

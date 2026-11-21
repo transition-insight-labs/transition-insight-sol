@@ -1,0 +1,31 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://transition-insight.org/",
+      "service-desc": [
+        {
+          "href": "https://transition-insight.org/sitemap.xml",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://transition-insight.org/openapi.json",
+          "type": "application/json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://transition-insight.org/.well-known/agent-skills/index.json",
+          "type": "application/json"
+        },
+        {
+          "href": "https://transition-insight.org/.well-known/agent-skills/transition-insight/SKILL.md",
+          "type": "text/markdown"
+        },
+        {
+          "href": "https://transition-insight.org/auth.md",
+          "type": "text/markdown"
+        }
+      ]
+    }
+  ]
+}
